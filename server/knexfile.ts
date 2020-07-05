@@ -1,11 +1,11 @@
 import path from "path";
 
 module.exports = {
-  client: "mssql",
+  client: "",
   connection: {
-    user: "adminbd",
-    password: "Thor@960062",
-    server: "gowcon01\\sqlcon01",
+    user: "",
+    password: "",
+    server: "",
     database: "coletaBD",
     options: {
       encrypt: true,
