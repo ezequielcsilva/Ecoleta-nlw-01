@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧 NextLevelWeek 1.0 🚀 em construção... 🚧
+	🚧 NextLevelWeek 1.0 🚀
 </h4>
 
 <p align="center">
@@ -11,33 +11,33 @@
 </p>
 
 
-## 💻 Sobre o projeto
+## 💻 About the Project
 
-♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
+♻️ **Ecoleta** - A platform to connect companies and waste collection entities with people who need to dispose of organic and inorganic waste in an eco-friendly way.
 
-As empresas ou entidades poderão se cadastrar na plataforma web enviando:
-- uma imagem do ponto de coleta
-- nome da entidade, email e whatsapp
-- e o endereço para que ele possa aparecer no mapa
-- além de selecionar um ou mais ítens de coleta: 
-  - lâmpadas
-  - pilhas e baterias
-  - papéis e papelão
-  - resíduos eletrônicos
-  - resíduos orgânicos
-  - óleo de cozinha
+Companies or entities can register on the web platform by providing:
+- An image of the collection point
+- The entity's name, email, and WhatsApp number
+- The address to display on the map
+- One or more waste collection items:
+  - Lamps
+  - Batteries
+  - Paper and cardboard
+  - Electronic waste
+  - Organic waste
+  - Cooking oil
 
-Os usuários terão acesso ao aplicativo móvel, onde poderão:
-- navegar pelo mapa para ver as instituições cadastradas
-- entrar em contato com a entidade através do E-mail ou do WhatsApp
+Users will have access to the mobile app, where they can:
+- Navigate the map to see registered institutions
+- Contact the entity via email or WhatsApp
 
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](rs).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+This project was developed during the **NLW - Next Level Week**, an event by [Rocketseat](https://rocketseat.com.br).
+NLW is an online experience with practical content, challenges, and hacks available for one week.
 
 
 ## 🎨 Layout
 
-O layout da aplicação está disponível no Figma:
+The application layout is available on Figma:
 
 <a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
   <img alt="Made by Ezequiel" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
@@ -62,7 +62,7 @@ O layout da aplicação está disponível no Figma:
 
 ## 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in building this project:
 
 - [Expo][expo]
 - [Node.js][nodejs]
@@ -71,78 +71,77 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript][typescript]
 
 
-## 🚀 Como executar o projeto
+## 🚀 How to run the project
 
-Podemos considerar este projeto como sendo divido em três partes:
-1. Back End (pasta server) 
-2. Front End (pasta web)
-3. Mobile (pasta mobile)
+This project is divided into three parts:
+1. **Back End** (server folder)
+2. **Front End** (web folder)
+3. **Mobile** (mobile folder)
 
-💡Tanto o Front End quanto o Mobile precisam que o Back End esteja sendo executado para funcionar.
+💡 **Note**: Both the Front End and Mobile require the Back End to be running.
 
-### Pré-requisitos
+### Prerequisites
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Before starting, ensure you have the following tools installed:
 [Git](https://git-scm.com), [Node.js][nodejs]. 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode][vscode]
+- A code editor like  [VSCode][vscode]
 
 ### 🎲 Rodando o Back End (servidor)
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
+# Clone this repository
+git clone https://github.com/tgmarinho/nlw1
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+# Navigate to the project folder
+cd nlw1
 
-# Vá para a pasta server
-$ cd server
+# Navigate to the server folder
+cd server
 
-# Instale as dependências
-$ npm install
+# Install the dependencies
+npm install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+# Run the application in development mode
+npm run dev:server
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# The server will start at port 3333 - access http://localhost:3333
 ```
 
-### 🧭 Rodando a aplicação web (Front End)
+### 🧭 Running the web application (Front End)
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/tgmarinho/nlw1
+# Clone this repository
+git clone https://github.com/tgmarinho/nlw1
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd nlw1
+# Navigate to the project folder
+cd nlw1
 
-# Vá para a pasta da aplicação Front End
-$ cd web
+# Navigate to the web folder
+cd web
 
-# Instale as dependências
-$ npm install
+# Install the dependencies
+npm install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
+# Run the application in development mode
+npm run start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# The application will start at port 3000 - access http://localhost:3000
 ```
 
-### 📱Rodando a aplicação mobile 
+### 📱 Running the mobile application
 
-🚧 Em construção... 🚧
+🚧 Under Construction… 🚧
 
-## 😯 Como contribuir para o projeto
+😯 How to contribute
+	1.	Fork this repository.
+	2.	Create a new branch for your changes: git checkout -b my-feature
+	3.	Save your changes and create a commit message: git commit -m "feature: My new feature"
+	4.	Push your changes: git push origin my-feature
 
-1. Faça um **fork** do projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
 
+## 📝 License
 
-## 📝 Licença
-
-Este projeto esta sobe a licença MIT.
+This project is under the MIT license. See the LICENSE file for details.
 
 
 [nodejs]: https://nodejs.org/
